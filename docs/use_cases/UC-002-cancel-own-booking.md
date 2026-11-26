@@ -7,7 +7,7 @@
 **Primary Actor:** Employee  
 **Goal:** Cancel a Booking the Employee made so that the Room becomes free for others  
 **Trigger:** An Employee no longer needs a Room they booked  
-**Status:** Reviewed  
+**Status:** Approved  
 
 **Requirements:** [FR-005, NFR-001, NFR-005](../requirements.md)
 

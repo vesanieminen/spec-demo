@@ -7,7 +7,7 @@
 **Primary Actor:** Office Manager  
 **Goal:** Cancel the Booking of any Employee so that a dispute about a Room is resolved  
 **Trigger:** An Office Manager decides to free a Room booked by an Employee  
-**Status:** Reviewed  
+**Status:** Approved  
 
 **Requirements:** [FR-009, NFR-001, NFR-005, C-001](../requirements.md)
 
