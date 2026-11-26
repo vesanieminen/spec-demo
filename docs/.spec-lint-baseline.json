@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "findings": [
+    {
+      "fingerprint": "b15eb548d03f072920f93638d3d6c0b9499aed24",
+      "code": "SPEC_CHANGED_AFTER_STATUS",
+      "path": "use_cases/UC-001-book-room.md",
+      "element": "UC-001",
+      "message": "UC-001 is Reviewed, but the specification changed after that status was set in cd8246b; run the spec review again (state 55be628a)"
+    }
+  ]
+}
