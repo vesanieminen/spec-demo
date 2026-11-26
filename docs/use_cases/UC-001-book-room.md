@@ -7,7 +7,7 @@
 **Primary Actor:** Employee  
 **Goal:** Book a free Room for a Time Slot so that the meeting has a place  
 **Trigger:** An Employee needs a Room for a meeting  
-**Status:** Draft  
+**Status:** Reviewed  
 
 **Requirements:** [FR-001, FR-002, FR-003, FR-004, NFR-001, NFR-003, NFR-004, NFR-005, C-001](../requirements.md)
 

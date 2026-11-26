@@ -7,7 +7,7 @@
 **Primary Actor:** Office Manager  
 **Goal:** Keep the list of Rooms, their capacity, and their Equipment correct so that Employees book the right Room  
 **Trigger:** An Office Manager needs to add a Room, change a Room, or take a Room out of service  
-**Status:** Draft  
+**Status:** Reviewed  
 
 **Requirements:** [FR-006, FR-007, FR-008, FR-010, NFR-001, NFR-005, C-001, C-003](../requirements.md)
 

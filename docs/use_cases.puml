@@ -7,15 +7,19 @@ actor "Office Manager" as officeManager
 employee <|-- officeManager
 
 rectangle "RoomBook" {
-    usecase "UC-001\nBook Room" as UC001
-    usecase "UC-002\nCancel Own Booking" as UC002
-    usecase "UC-003\nManage Rooms" as UC003
-    usecase "UC-004\nCancel Any Booking" as UC004
+    usecase "UC-001\nBook Room" as UC001 #LightBlue
+    usecase "UC-002\nCancel Own Booking" as UC002 #LightBlue
+    usecase "UC-003\nManage Rooms" as UC003 #LightBlue
+    usecase "UC-004\nCancel Any Booking" as UC004 #LightBlue
 }
 
 employee --> UC001
 employee --> UC002
 officeManager --> UC003
 officeManager --> UC004
+
+legend right
+  |<#LightBlue>| Status: Reviewed |
+endlegend
 
 @enduml
