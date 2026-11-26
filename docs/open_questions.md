@@ -209,3 +209,16 @@ sign-on is decided.
 
 **Answer:** (c) For now, a development stub signs every user in as one fixed Employee. The single sign-on protocol and identity provider are decided later; C-001 is not met until then.  
 **Answered by:** Vesa Nieminen, 2026-11-26  
+
+## OQ-015: Which message names the violated rule when a Booking is rejected under A2?
+
+**Element:** UC-001 A2  
+**Raised by:** /vaadin-flow-ui-test, 2026-11-26  
+**Blocking:** No  
+**Status:** Answered  
+
+A2 says the system "names the rule that is violated" but words no message, and the tests assert messages word for
+word. Readings: (a) one message per rule, restating it (implemented); (b) a message that cites the rule id only.
+
+**Answer:** One message per rule. BR-001: "A Time Slot must lie within one day, start and end on a 15-minute step, and last at least 15 minutes and at most 4 hours." BR-002: "A Booking can start at most 90 days from now." BR-003: "A Booking cannot start before the current time."  
+**Answered by:** Vesa Nieminen, 2026-11-26  

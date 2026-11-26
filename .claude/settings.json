@@ -1,0 +1,8 @@
+{
+  "enabledPlugins": {
+    "aiup-spring-boot@ai-unified-process-marketplace": true,
+    "aiup-core@ai-unified-process-marketplace": true,
+    "aiup-flyway@ai-unified-process-marketplace": true,
+    "aiup-jooq@ai-unified-process-marketplace": true
+  }
+}
