@@ -181,3 +181,31 @@ select the kind from the list. Comparing case-sensitively would allow "Projector
 **Answer:** The existing kind is selected.  
 **Answered by:** Vesa, 2026-11-26  
 **Resolved in:** UC-003 BR-005  
+
+## OQ-013: Which time zone defines the day of a Time Slot and the times shown to Employees?
+
+**Element:** UC-001 BR-001  
+**Raised by:** /use-case-implement, 2026-11-26  
+**Blocking:** No  
+**Status:** Answered  
+
+BR-001 requires a Time Slot to lie within one day, and NFR-002 speaks of local time, but no time zone is named.
+Readings: (a) one office time zone configured in RoomBook; (b) the default time zone of the server RoomBook runs on.
+
+**Answer:** (b) The default time zone of the server defines the day, the 15-minute steps, and the times shown.  
+**Answered by:** Vesa Nieminen, 2026-11-26  
+
+## OQ-014: Which single sign-on protocol and identity provider does RoomBook use?
+
+**Element:** C-001  
+**Raised by:** /use-case-implement, 2026-11-26  
+**Blocking:** No  
+**Status:** Answered  
+
+C-001 requires the company's existing single sign-on, and the entity model creates the Employee from its data at
+each sign-in, but neither the protocol (OpenID Connect, SAML) nor the identity provider is named. Readings: (a)
+OpenID Connect; (b) SAML; (c) a development stub that signs every user in as one fixed Employee until the single
+sign-on is decided.
+
+**Answer:** (c) For now, a development stub signs every user in as one fixed Employee. The single sign-on protocol and identity provider are decided later; C-001 is not met until then.  
+**Answered by:** Vesa Nieminen, 2026-11-26  
