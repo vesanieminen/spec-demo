@@ -89,7 +89,7 @@ A Time Slot lies within one day, starts and ends on a 15-minute step (minutes 00
 
 ### BR-002: Booking Horizon
 
-A Booking starts at most 90 days (90 × 24 hours) after the moment it is made.
+A Booking starts at the latest on the 90th calendar day after the day it is made, at any time of that day: a Booking made on 1 March may start up to the end of 30 May.
 
 ### BR-003: No Booking in the Past
 

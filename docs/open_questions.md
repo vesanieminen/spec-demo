@@ -157,19 +157,27 @@ requirement for it is a hand-off to /requirements.
 **Element:** UC-001 BR-002  
 **Raised by:** /use-case-spec, 2026-11-26  
 **Blocking:** No  
-**Status:** Open  
+**Status:** Resolved  
 **Assumed:** To the minute: a Booking starts at most 90 × 24 hours after the moment it is made, as the BOOKING constraint of the entity model states.  
 
 Readings: (a) to the minute (assumed, matches the entity model); (b) by calendar day, so a Booking made at 14:00 may
 start at any time on the 90th day after. Reading (b) would also change the BOOKING constraint (/entity-model).
+
+**Answer:** By calendar day.  
+**Answered by:** Vesa, 2026-11-26  
+**Resolved in:** UC-001 BR-002, Entity: BOOKING  
 
 ## OQ-012: What happens when an Office Manager enters a kind of Equipment that already exists?
 
 **Element:** UC-003 BR-005  
 **Raised by:** /use-case-spec, 2026-11-26  
 **Blocking:** No  
-**Status:** Open  
+**Status:** Resolved  
 **Assumed:** The existing kind is selected for the Room instead of adding a second one, and names are compared ignoring upper and lower case ("projector" selects "Projector").  
 
 Readings: (a) select the existing kind (assumed); (b) reject the name with a message and let the Office Manager
 select the kind from the list. Comparing case-sensitively would allow "Projector" and "projector" side by side.
+
+**Answer:** The existing kind is selected.  
+**Answered by:** Vesa, 2026-11-26  
+**Resolved in:** UC-003 BR-005  

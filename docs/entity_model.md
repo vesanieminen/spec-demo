@@ -68,5 +68,5 @@ An Employee's claim on one Room for one Time Slot; a cancelled Booking is delete
 - end_time must be after start_time, on the same day.
 - start_time and end_time fall on a 15-minute step (minutes 00, 15, 30, or 45).
 - The Time Slot lasts at least 15 minutes and at most 4 hours.
-- start_time is at most 90 days after created_at.
+- The date of start_time is at most 90 days after the date of created_at.
 - Two Bookings of the same Room never overlap: for the same room_id, one Booking's start_time is not before the other's end_time, or vice versa.
